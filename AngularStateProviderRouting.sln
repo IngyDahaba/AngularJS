@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularStateProviderRouting", "AngularStateProviderRouting\AngularStateProviderRouting.csproj", "{A71D85D4-FC7F-4EE5-867D-B46A41807CE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A71D85D4-FC7F-4EE5-867D-B46A41807CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A71D85D4-FC7F-4EE5-867D-B46A41807CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A71D85D4-FC7F-4EE5-867D-B46A41807CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A71D85D4-FC7F-4EE5-867D-B46A41807CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CE0A0EA-0DB7-4025-BB10-08635889D2DB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<script src="Scripts/jquery-3.3.1.slim.js"></script>
+<script src="Scripts/umd/popper.js"></script>
+<script src="../Scripts/angular.js"></script>
+<script src="../Scripts/angular-ui-router.js"></script>
+<script src="../Scripts/Employees/App.js"></script>
+<script src="Scripts/Employees/EmployeeController.js"></script>
+<script src="Scripts/Employees/EditEmployeeController.js"></script>
+<script src="Scripts/Employees/EmployeeService.js"></script>
+<script src="Scripts/angular-toastr.tpls.js"></script>
+<script src="Scripts/angular-animate.js"></script>
+<script src="Scripts/angular-aria.js"></script>
+<script src="Scripts/angular-messages.js"></script>
+<script src="Scripts/angular-material.js"></script>
+<script src="Scripts/jquery-3.3.1.min.js"></script>
+<script src="Scripts/bootstrap.min.js"></script>
+<link href="Content/bootstrap.css" rel="stylesheet" />
+<link href="Content/angular-toastr.css" rel="stylesheet" />
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body ng-app="EmployeesModule">
+    <div class="container">
+        <h1>Employees Portal</h1>
+    </div>
+    <div class="container">
+
+        <md-progress-circular md-mode="indeterminate" ng-show="loading" class="center-block"></md-progress-circular>
+
+        <div ui-view ng-hide="loading"></div>
+
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿    <div>
+        <div class="row">
+            <label class="col-md-1">Name</label>
+            <input type="text" ng-model="Emp.Name" class="col-md-3" /> <label ng-show="empName" class="label label-danger"> name is missing</label>
+        </div>
+        <br />
+        <div class="row">
+            <label class="col-md-1">Title</label>
+            <input type="text" ng-model="Emp.Title" class="col-md-3" /> <label ng-show="empTitle" class="label label-danger"> title is missing</label>
+        </div>
+        <br />
+        <div class="row">
+            <label class="col-md-1">Email</label>
+            <input type="email" ng-model="Emp.Email" class="col-md-3" /> <label ng-show="empEmail" class="label label-danger"> email is missing</label>
+            <label ng-show="empEmailExp" class="label label-danger">Invalid Email Address</label>
+            
+        </div>
+        <br />
+        <div class="row">
+            <button ng-click="AddEmp();" class="btn-primary col-md-1 col-md-offset-1" ng-show="!IsEdit" >Add</button>
+            <button ng-click="EditEmp();" class="btn-primary col-md-1 col-md-offset-1" ng-show="IsEdit" ng-disabled="!EnableSubmit" data-toggle="tooltip" title="to enable button edit values">Edit</button>
+            <button ng-click="Back();" class="btn-primary col-md-1 col-md-offset-1">Back</button>
+        </div>
+    </div>
+   
